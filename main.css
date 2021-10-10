@@ -1,0 +1,439 @@
+body {
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #666666;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 16px;
+  color: #ff4e00;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Merriweather", serif;
+  font-size: 52px;
+  color: black;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  /* background-color: blue; */
+}
+
+.heading {
+  border-left: 2px solid #ff4e00;
+}
+
+.heading h1 {
+  margin-bottom: 15px;
+}
+
+/* *********HERO SECTION***** */
+.hero {
+  /* background-color: aqua; */
+  position: relative;
+  margin-left: 131px;
+  width: 1305px;
+  height: 820px;
+}
+
+.hero nav a {
+  text-decoration: none;
+  color: #666666;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.hero nav span a {
+  font-weight: bold;
+  margin-right: 48px;
+}
+
+.hero nav {
+  display: inline-block;
+  margin-top: 66px;
+}
+
+.hero .bg-header {
+  float: right;
+}
+
+/* ********WELCOME PAGE******** */
+.welcome-page {
+  /* background-color: aquamarine; */
+  padding-left: 100px;
+  width: 410px;
+  height: 617px;
+  margin-top: 111px;
+  border-left: 2px solid #ff4e00;
+  position: relative;
+}
+
+.welcome-page h2 {
+  margin: 17px 0 47px 0;
+  line-height: 72px;
+}
+
+.welcome-page p {
+  line-height: 30px;
+  margin-bottom: 56px;
+}
+
+.welcome-page form {
+  width: 721px;
+  position: relative;
+}
+
+.welcome-page input {
+  padding: 30px 200px 32px 41px;
+  width: 721px;
+  box-sizing: border-box;
+  box-shadow: 0 0px 20px rgba(68, 68, 68, 0.26);
+  border: none;
+  font-size: 14px;
+  position: absolute;
+}
+
+.welcome-page button {
+  width: 170px;
+  height: 62px;
+  position: absolute;
+  top: 8px;
+  right: 11px;
+}
+
+.welcome-page ul {
+  position: absolute;
+  bottom: 0;
+}
+
+.welcome-page ul li {
+  /* float: left; */
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* *********ABOUT US******************* */
+.about-us {
+  /* background-color: greenyellow; */
+  width: 1170px;
+  height: 641px;
+  margin: 222px auto 202px auto;
+  position: relative;
+}
+
+.about-us img {
+  /* float: left; */
+  display: inline-block;
+  margin-right: 100px;
+}
+
+.introduction {
+  /* float: right; */
+  display: inline-block;
+  width: 470px;
+  vertical-align: top;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.heading {
+  margin-bottom: 35px;
+  padding-left: 29px;
+}
+
+.description {
+  padding-left: 29px;
+}
+
+.introduction h2 {
+  margin-top: 10px;
+}
+
+.introduction p {
+  margin-bottom: 51px;
+  line-height: 30px;
+}
+
+.since {
+  font-weight: 900;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  color: black;
+}
+
+.about-us a {
+  position: absolute;
+  bottom: 0;
+}
+
+/* *********POPULAR FOOD*********** */
+.popular-food {
+  width: 1171px;
+  height: 573px;
+  margin: 0 auto;
+}
+
+.card-menu {
+  float: left;
+  margin-right: 30px;
+  position: relative;
+}
+
+.card-menu:last-child {
+  margin-right: 0;
+}
+
+.card-menu p {
+  font-size: 20px;
+  margin: 50px 0 10px 22px;
+  letter-spacing: 0.5px;
+}
+
+p.price {
+  float: right;
+  color: red;
+  margin: 0 25px 30px 0;
+}
+
+.heart {
+  background-color: white;
+  width: 74px;
+  height: 74px;
+  display: block;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  right: 25px;
+  top: 260px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+.red-heart {
+  color: red;
+}
+
+.heart i {
+  line-height: 74px;
+  font-size: 1.3em;
+}
+
+.card-menu ul {
+  margin-left: 22px;
+}
+
+.card-menu ul li {
+  float: left;
+  color: yellow;
+  margin-right: 8px;
+}
+
+.card-menu:hover {
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+/* ********TESTIMONY************ */
+.testimony {
+  margin: 147px 0 400px 135px;
+  position: relative;
+  height: 710px;
+}
+
+.testimony .bg-testimony {
+  position: absolute;
+  right: 0;
+}
+
+.comment p,
+.testimony-account,
+.slider-nav {
+  padding-left: 30px;
+}
+
+.comment {
+  width: 630px;
+  padding-top: 50px;
+}
+
+.comment p {
+  font-size: 20px;
+  line-height: 35px;
+  margin: 59px 0 100px 0;
+}
+
+.testimony-account img {
+  float: left;
+  margin-right: 20px;
+}
+
+.testimony-account p.account-name {
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.testimony-account p.account-name span {
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+.slider-nav {
+  margin-top: 79px;
+}
+
+.slider-nav li {
+  float: left;
+  margin-right: 12px;
+}
+
+.slider-nav li a {
+  display: block;
+  width: 12px;
+  height: 12px;
+  background-color: #959595;
+  border-radius: 50%;
+}
+
+.slider-nav li:first-child a {
+  background-color: #ff4e00;
+}
+
+/* *********RESERVATION******** */
+.reservation {
+  background-image: url(../img/Rectangle.png);
+  height: 433px;
+  width: 1305px;
+  padding: 35px 70px 0 0;
+  box-sizing: border-box;
+  position: absolute;
+  left: -1px;
+  top: -104px;
+}
+
+.reservation .booking-table {
+  float: right;
+}
+
+.reservation .heading h2,
+.reservation p {
+  color: white;
+}
+
+.booking-table form ul li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.booking-table ul li input {
+  width: 120px;
+  padding: 15px 24px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  margin: 10px 0 30px 0;
+}
+
+.booking-table .booking-email {
+  padding: 20px 24px;
+  width: 375px;
+  box-sizing: border-box;
+  margin-right: 31px;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+/* ********FOOTER******* */
+footer {
+  background-color: #e9e9e9;
+  padding: 435px 135px 0 135px;
+  border: 1px solid black;
+  position: relative;
+}
+
+.column-one-third {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.footer-heading {
+  margin-right: 139px;
+}
+
+.footer-heading h1 {
+  margin-bottom: 10px;
+}
+
+.type-of-menu {
+  margin-bottom: 230px;
+}
+
+.type-of-menu h3 {
+  font-size: 20px;
+  margin-bottom: 35px;
+  padding-top: 35px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.type-of-menu ul li {
+  margin-bottom: 30px;
+}
+
+.talk {
+  width: 270px;
+  float: right;
+  padding-top: 35px;
+}
+
+.talk input {
+  background-color: transparent;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  border: 2px solid #959595;
+  margin-bottom: 21px;
+  font-weight: 300;
+}
+
+.talk .message {
+  padding-bottom: 180px;
+}
+
+.year {
+  line-height: 80px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+/* ***************BUTTON************* */
+.default-btn {
+  background-color: #ff4e00;
+  padding: 20px 35px;
+  border: none;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bolder;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.reservation-btn {
+  width: 170px;
+}
+
+.footer-btn {
+  width: 270px;
+}
